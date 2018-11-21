@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class CommandAdapter {
 
 
-    public String getUser(String accessToken){
-        return "get User kc0520 2!!!!!";
+    public String echo(){
+        return "Library build safely !";
     }
 }

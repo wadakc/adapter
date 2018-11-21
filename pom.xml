@@ -10,7 +10,7 @@
 
 	<name>adapter</name>
 	<url>https://github.com/wadakc/adapter</url>
-
+	<!-- <url>https://github.com/wadakc/adapter</url> -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -61,7 +61,7 @@
 					<!-- distributionManagement の url と一致させる -->
 					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
 					<!-- リモートブランチ名 -->
-					<branch>refs/heads/mvn-repo</branch>
+					<branch>mvn-repo</branch>
 					<includes><include>**/*</include></includes>
 					<!-- Github リポジトリ名 -->
 					<repositoryName>adapter</repositoryName>
